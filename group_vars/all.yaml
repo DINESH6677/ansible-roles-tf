@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.devopswithdinesh.shop
+MONGODB_HOST: mongodb-{{ env }}.devopswithdinesh.shop # mongodb-dev.devopswithdinesh.shop
 REDIS_HOST: redis-{{ env }}.devopswithdinesh.shop
-CATALOGUE_HOST: catalogue-{{ env }}.devopswithdinesh.shop
-CART_HOST: cart-{{ env }}.devopswithdinesh.shop
-USER_HOST: user-{{ env }}.devopswithdinesh.shop
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.devopswithdinesh.shop
+CART_HOST: cart.backend-alb-{{ env }}.devopswithdinesh.shop
+USER_HOST: user.backend-alb-{{ env }}.devopswithdinesh.shop
 RABBITMQ_HOST: rabbitmq-{{ env }}.devopswithdinesh.shop
 MYSQL_HOST: mysql-{{ env }}.devopswithdinesh.shop
-SHIPPING_HOST: shipping-{{ env }}.devopswithdinesh.shop
-PAYMENT_HOST: payment-{{ env }}.devopswithdinesh.shop
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.devopswithdinesh.shop
+PAYMENT_HOST: payment.backend-alb-{{ env }}.devopswithdinesh.shop
